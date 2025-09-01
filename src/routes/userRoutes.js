@@ -11,10 +11,10 @@ const userController = require('../controller/userController');
 //1° - Rota para obter todos os usuários (passar o caminho e o que quer que ele faça.)
 router.get('/', userController.getAllUsers);
 
-// //2° - Rota para obter dados de um usuário por ID
-// router.get('/:id', userController.getUserById);
+//2° - Rota para obter dados de um usuário por ID
+router.get('/:id', userController.getUserById);
 
-// //3° - Rota para criar um novo usuário
-// router.post('/', userController.createUser);
+//3° - Rota para criar um novo usuário
+router.post('/', userController.createUser);
 
 module.exports = router;
