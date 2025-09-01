@@ -1,0 +1,14 @@
+{
+  "name": "pbe-api-usuarios",
+  "version": "1.0.0",
+  "description": "pacote direcionado a um teste educativo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guilherme Viana de Souza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
